@@ -1,18 +1,29 @@
-## Getting Started
+# WEATHER APP
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
 
-## Folder Structure
+## Description
+This weather app is built using Java Swing for frontend and integrated with API with for real-time weather data fetching based on the given input city. This application provides the current weather, windspeed, humidity along with related images for each type of weather.
 
-The workspace contains two folders by default, where:
+## Features
+- Real-time data fetching
+- Accurate
+- Weather is displayed along with relevant images
+- User friendly GUI
+- Fast
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Technologies Used
+- Language: Java
+- GUI Framework: Swing
+- API: Geocoding API and Weather Forecast API from [this site](https://open-meteo.com/).
+- JSON Parsing Library: json-simple
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## How It Works
+Firstly using the geolocation API, we fetch the coordinates of the input city and use it with weather API to get the desired results.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Acknowledgments
+- Weather data powered by [OpenMeteo](https://open-meteo.com/).
+- JSON parsing with [json-simple](https://code.google.com/archive/p/json-simple/downloads).
+- Tutorials from [TapTap from youtube](https://www.youtube.com/@TapTap_196).
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Conclusion
+This project will provide accurate, real-time data and it was important for me in understanding about the API calls.
